@@ -66,7 +66,7 @@
             <h2>Vishal Dubey</h2>
             <p>
               I'm a 
-              <span class="typed" data-typed-items="Angular Developer, Node.js Developer, MEAN Developer"></span>
+              <span class="typed" data-typed-items="Angular Developer, Node.js Developer, MERN Developer"></span>
               <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
             </p>
             
@@ -97,7 +97,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/profile2-img.jpeg" class="img-fluid" alt="">
+            <img src="assets/img/profile1-img.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>Angular Developer &amp; Node.js Developer.</h2>
@@ -155,42 +155,266 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <span>3+</span> <!-- Directly set the number here -->
-              <p>Years Of Experience</p>
+         <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center" 
+          style="cursor: pointer;" 
+          data-bs-toggle="modal" 
+          data-bs-target="#languageModal">
+       <!-- Box Wrapper -->
+       <div class="box-wrapper d-flex flex-column align-items-center justify-content-center">
+         <!-- Icon for the modal -->
+         <i class="bi bi-emoji-smile fs-1"></i>
+         <div class="stats-item text-center mt-2">
+           <span class="fs-3 fw-bold">3+</span>
+           <p class="text-muted">Years Of Experience</p>
+         </div>
+       </div>
+     </div>
+     
+    
+     
+     
+          
+          <!-- Bootstrap Modal -->
+          <div class="modal fade" id="languageModal" tabindex="-1" aria-labelledby="languageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                  <h5 class="modal-title" id="languageModalLabel">Professional Experience</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <strong>1. Internship (6 months):</strong> 1Rivet
+                    </li>
+                    <li class="list-group-item">
+                      <strong>2. 2 Years:</strong> Ebizz Infotech
+                    </li>
+                    <li class="list-group-item">
+                      <strong>3. 1+ Years:</strong> Encodedots
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
+          
+          
+      
+
           
           <!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <span>10+</span>
-              <p>Projects I have work</p>
+            <!-- Box Wrapper -->
+            <div class="box-wrapper d-flex flex-column align-items-center justify-content-center" 
+                 style="cursor: pointer;" 
+                 data-bs-toggle="modal" 
+                 data-bs-target="#projectsModal">
+              <!-- Icon for Projects -->
+              <i class="bi bi-journal-richtext fs-1"></i>
+              <div class="stats-item text-center mt-2">
+                <span class="fs-3 fw-bold">10+</span>
+                <p class="text-muted">Projects I Have Worked On</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
+          
+          <!-- Bootstrap Modal -->
+          <div class="modal fade" id="projectsModal" tabindex="-1" aria-labelledby="projectsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="projectsModalLabel">Projects I Have Worked On</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">1. Gather Co front-end</li>
+                    <li class="list-group-item">2. Gather Co back-end</li>
+                    <li class="list-group-item">3. Mindscape (Admin panel)</li>
+                    <li class="list-group-item">4. Spiritualism (Admin panel)</li>
+                    <li class="list-group-item">5. Kirtan sagar(Admin panel)</li>
+                    <li class="list-group-item">6. Wellhead (Admin panel)</li>
+                    <li class="list-group-item">7. Inventory Management System (Web Panel)</li>
+                    <li class="list-group-item">8. E-Commerce Website (frontend + backend)</li>
+                   <li class="list-group-item">9. TODO applications (frontend + backend) </li>
+                    <li class="list-group-item">10. Leave management system</li>
+                   </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+     
+          
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-briefcase"></i>
-            <div class="stats-item">
-              <span>5+</span> <!-- You can adjust the number -->
-              <p>Technologies Mastered</p>
+            <!-- Box Wrapper -->
+            <div class="box-wrapper d-flex flex-column align-items-center justify-content-center" 
+                 style="cursor: pointer;" 
+                 data-bs-toggle="modal" 
+                 data-bs-target="#technologiesModal">
+              <!-- Icon for Technologies -->
+              <i class="bi bi-briefcase fs-1"></i>
+              <div class="stats-item text-center mt-2">
+                <span class="fs-3 fw-bold">5+</span>
+                <p class="text-muted">Technologies Mastered</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Bootstrap Modal -->
+          <div class="modal fade" id="technologiesModal" tabindex="-1" aria-labelledby="technologiesModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="technologiesModalLabel">Technologies Mastered</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">1. Angular</li>
+                    <li class="list-group-item">2. JavaScript/TypeScript</li>
+                    <li class="list-group-item">3. Node.js</li>
+                    <li class="list-group-item">4. HTML/CSS/Bootstrap</li>
+                    <li class="list-group-item">5. MongoDB/MySQL</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           
           <!-- End Stats Item -->
-          
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-translate"></i> <!-- Corrected icon for languages -->
-            <div class="stats-item">
-              <span>3</span> <!-- Adjust the number as needed -->
-              <p>Languages Known</p> <!-- Fixed typo in <p> tag -->
+            <!-- Box Wrapper -->
+            <div class="box-wrapper d-flex flex-column align-items-center justify-content-center" 
+                 style="cursor: pointer;" 
+                 data-bs-toggle="modal" 
+                 data-bs-target="#languagesModal">
+              <!-- Icon for Technologies -->
+              <i class="bi bi-briefcase fs-1"></i>
+              <div class="stats-item text-center mt-2">
+                <span class="fs-3 fw-bold">3</span>
+                <p class="text-muted">Languages Known</p>
+              </div>
             </div>
           </div>
+          
+          <!-- Modal for Languages Known -->
+          <div class="modal fade" id="languagesModal" tabindex="-1" aria-labelledby="languagesModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="languagesModalLabel">Languages I Know</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">1. English</li>
+                    <li class="list-group-item">2. Hindi</li>
+                    <li class="list-group-item">3. Gujarati</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <style>
+            /* Box Wrapper Styling */
+.box-wrapper {
+  width: 270px;
+  height: 250px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Hover Effect for Box Wrapper */
+.box-wrapper:hover {
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Icon Hover Styling */
+.box-wrapper:hover i {
+  color: #007bff;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Stats Text Styling */
+.stats-item span {
+  font-size: 2.5rem;
+  color: inherit;
+}
+
+.stats-item p {
+  font-size: 1.1rem;
+  color: inherit;
+}
+
+/* Modal Styling */
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+}
+
+.list-group-item {
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+}
+
+.list-group-item strong {
+  color: #007bff;
+}
+
+/* Modal Close Button */
+.btn-close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .box-wrapper {
+    width: 270px;
+    height: 180px;
+  }
+  .stats-item span {
+    font-size: 2rem;
+  }
+  .stats-item p {
+    font-size: 0.9rem;
+  }
+}
+
+          </style>
           
           
 
@@ -283,7 +507,7 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Summary</h3>
+            <h3 class="resume-title">Sumary</h3>
 
             <div class="resume-item pb-0">
               <h4>My Roles and responsibilities</h4>
@@ -446,119 +670,117 @@
             </div><!-- End Info Item -->
           </div>
           
-
-          <!-- <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div> -->
-
           <div class="col-lg-8">
             <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
-          
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <small class="validation-error" id="nameError" style="color: red; display: none;">Please enter your name.</small>
                 </div>
           
                 <div class="col-md-6">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <small class="validation-error" id="emailError" style="color: red; display: none;">Please enter a valid email.</small>
                 </div>
           
                 <div class="col-md-12">
                   <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <small class="validation-error" id="subjectError" style="color: red; display: none;">Please enter the subject.</small>
                 </div>
           
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  <small class="validation-error" id="messageError" style="color: red; display: none;">Please enter your message.</small>
                 </div>
           
                 <div class="col-md-12 text-center">
-                  <!-- Success message with inline styles -->
                   <div id="successMessage" style="display: none; color: white; background-color: green; padding: 10px; border-radius: 5px; font-weight: bold;">
                     Your message has been sent successfully!
                   </div>
-          
-                  <!-- Error message for validation -->
-                  <div id="errorMessage" style="display: none; color: white; background-color: red; padding: 10px; border-radius: 5px; font-weight: bold;">
-                    Please fill out all fields!
+                  <!-- Loader -->
+                  <div id="loader" style="display: none; text-align: center; margin-top: 10px;">
+                    <img src="https://i.gifer.com/4V0b.gif" alt="Loading..." width="50" />
                   </div>
-          
-                  <!-- Styled submit button -->
-                  <button 
-                    type="button" 
-                    id="submitButton" 
-                    style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                  <button type="button" id="submitButton" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
                     Send Message
                   </button>
                 </div>
-          
               </div>
             </form>
           </div>
           
           <script>
             document.getElementById('submitButton').addEventListener('click', function () {
-              // Get the form and all its inputs
               const form = document.getElementById('contactForm');
-              const name = form.querySelector('input[name="name"]').value.trim();
-              const email = form.querySelector('input[name="email"]').value.trim();
-              const subject = form.querySelector('input[name="subject"]').value.trim();
-              const message = form.querySelector('textarea[name="message"]').value.trim();
+              const name = form.querySelector('input[name="name"]');
+              const email = form.querySelector('input[name="email"]');
+              const subject = form.querySelector('input[name="subject"]');
+              const message = form.querySelector('textarea[name="message"]');
           
-              // Get the success and error message elements
+              const nameError = document.getElementById('nameError');
+              const emailError = document.getElementById('emailError');
+              const subjectError = document.getElementById('subjectError');
+              const messageError = document.getElementById('messageError');
+              const loader = document.getElementById('loader');
               const successMessage = document.getElementById('successMessage');
-              const errorMessage = document.getElementById('errorMessage');
+          
+              let isValid = true;
+          
+              // Reset errors
+              nameError.style.display = 'none';
+              emailError.style.display = 'none';
+              subjectError.style.display = 'none';
+              messageError.style.display = 'none';
           
               // Validation logic
-              if (name === "" || email === "" || subject === "" || message === "") {
-                // Show error message if any field is empty
-                errorMessage.style.display = 'block';
-                successMessage.style.display = 'none';
-              } else {
-                // Show success message if all fields are filled
-                successMessage.style.display = 'block';
-                errorMessage.style.display = 'none';
+              if (name.value.trim() === '') {
+                nameError.style.display = 'block';
+                isValid = false;
+              }
+              if (email.value.trim() === '' || !/\S+@\S+\.\S+/.test(email.value)) {
+                emailError.style.display = 'block';
+                isValid = false;
+              }
+              if (subject.value.trim() === '') {
+                subjectError.style.display = 'block';
+                isValid = false;
+              }
+              if (message.value.trim() === '') {
+                messageError.style.display = 'block';
+                isValid = false;
+              }
           
-                // Clear the form fields
+              if (!isValid) {
+                return;
+              }
+          
+              // Show loader and hide error/success messages
+              loader.style.display = 'block';
+              successMessage.style.display = 'none';
+          
+              // Simulate form submission
+              setTimeout(() => {
+                loader.style.display = 'none';
+                successMessage.style.display = 'block';
+          
+                // Reset form fields
                 form.reset();
           
-                // Optionally, hide the success message after a few seconds
+                // Hide success message after 3 seconds
                 setTimeout(() => {
                   successMessage.style.display = 'none';
-                }, 3000); // 3 seconds
-              }
+                }, 3000);
+              }, 3000); // 3 seconds
+            });
+          
+            // Remove validation error messages when fields are corrected
+            document.querySelectorAll('.form-control').forEach((input) => {
+              input.addEventListener('input', function () {
+                const errorId = `${input.name}Error`;
+                document.getElementById(errorId).style.display = 'none';
+              });
             });
           </script>
-          
-          
-          
         </div>
 
       </div>
